@@ -10,12 +10,16 @@ object RecursiveExs extends App{
     concatHelper(ipstr,numTimes)
   }
 
-  @scala.annotation.tailrec
-  def tailrecFibonacci(i: Int, n: Int, last: Int, prev: Int): Int = {
-    if (i>=n) last
-    else tailrecFibonacci(i+1,n,last+prev,last)
+
+  def tailrecFibonacci(n: Int): Int = {
+    @scala.annotation.tailrec
+    def auxTailRecFib(i: Int, last: Int, prev: Int): Int = {
+      if (i>=n) last
+      else auxTailRecFib(i+1,last+prev,last)
+    }
+    auxTailRecFib(2,1,1)
   }
 
   println("Concatenated String: " + strConcatenate("Vignesh",5))
-  println("Fibonacci Result: " + tailrecFibonacci(2,10,1,1))
+  println("Fibonacci Result: " + tailrecFibonacci(10))
 }
