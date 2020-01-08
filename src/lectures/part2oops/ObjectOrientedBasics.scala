@@ -31,4 +31,14 @@ class Person (name: String, age: Int, val gender: String, val dummy: Int = 0) {
 
   //def greetingFunc(): String = "Let's see if it works"
 
+  /* Ex: 4
+   * Novel & Writer Class
+   * Writer: First & last Name
+   *  - method: FullName - Concatenation of first and lats name
+   * Novel : name, year of release, author
+   *  - method: authorAge : returns age at the year of release of an author.
+   *  - method: isWrittenBy(author): returns the author name for a given book
+   *  - method:
+   */
+
 }
