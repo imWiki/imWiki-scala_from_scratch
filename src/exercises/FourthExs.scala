@@ -1,6 +1,6 @@
 package exercises
 
-object ObjectOrientedFirstExs extends App{
+object FourthExs extends App{
   val codeWriter = new Writer("Vignesh","Meyyappan",1991)
   val comicWriter = new Writer("Vignesh","Meyyappan",1991)
   val codeBook = new Novel("Scala Programming",2019,codeWriter)
