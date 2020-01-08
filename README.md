@@ -34,7 +34,7 @@ Package = lectures.part1basics
 File = NamedArguments.scala
 ```
 
-Exercise 2: Write function for below operations\
+Exercise 2: Write function for below operations
 1. Fibonacci Series
 2. Factorial
 3. Finding a Prime number
@@ -45,7 +45,7 @@ Package = lectures.part1basics
 File = StringOperations.scala
 ```
 
-Exercise 3 (Recursive): Write function for below operations\
+Exercise 3 (Recursive): Write function for below operations
 1. Fibonacci Series using tail recursion
 2. Finding a Prime number using tail recursion
 3. Concatenate a given string n times using recursion
