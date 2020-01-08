@@ -1,6 +1,11 @@
 Scala Programming - Learning Notes
 ==
 
+## Pre-Requisites
+1. [Download Intellij](https://www.jetbrains.com/idea/download/)
+2. [Download Java 1.8](https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html) 
+3. [Setting up Intellij with Scala Plugin](https://www.javahelps.com/2018/12/setup-scala-on-intellij-idea.html)
+
 # Learning Part 1 Basics
 __Variables & Types of Scala__
 ```
