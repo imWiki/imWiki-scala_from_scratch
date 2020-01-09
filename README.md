@@ -57,6 +57,7 @@ File = StringOperations.scala
 
 # Part 2 - Object Oriented Concepts
 
+__Classes & Objects__
 ```
 Package = lectures.part2oops
 File = ObjectOrientedBasics.scala
@@ -80,6 +81,20 @@ File = ObjectOrientedBasics.scala
 3. Counter class with a number as parameter and following methods\
     a. increment & decrement method which creates new object of Counter class with parameter value inc or dec by 1\
     b. increment & decrement overloaded method with number as parameter, which again creates a new object of Counter class, but increments the class parameter with method parameter. 
+
+__Method Notations & Syntactic Sugar__
+```
+Package = lectures.part2oops
+File = MethodNotations.scala
+```
+
+`Exercise 5: Write below classes and methods as below`
+1. Overload the + operator in Person class implemented in MethodNotations.scala which will return new Person Object with modified name or appended name
+2. Add an age parameter to Person class & implement a unary_+ method that will increment the age by 1 in new object
+3. Add a learns method that can be called with post fix notation. ex: vignesh learns scala
+4. Overload apply method with an argument and return some string.
+
+ 
 
 # Update WIP
 `Answers for all exercises can be found in relevant files under exercises package`
