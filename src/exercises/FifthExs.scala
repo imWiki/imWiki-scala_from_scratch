@@ -11,11 +11,13 @@ object FifthExs extends App{
   println(vignesh.printAge)
   println(vigneshNextYear.printAge)
   println(vigneshFullName()) //equal to vignesh.apply()
-  println(vignesh learns "Scala") //post-fix notation
+  println(vignesh learns "Scala") //in-fix notation
+  println(vignesh learnsPython) //post-fix notation
   println(vignesh("Briyani"))
 
   class Person(val name: String, food: String, age: Int = 1) {
     def learns(someVal: String) = s"${this.name} is learning $someVal"
+    def learnsPython() = this learns "Python"
 
     def +(wifeName: Person) = s"${this.name} got married to ${wifeName.name}"
     def +(newName: String) = new Person(this.name + newName, this.food, this.age)
