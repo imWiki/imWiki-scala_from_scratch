@@ -4,7 +4,7 @@ object FifthExs extends App{
 
   val vignesh = new Person("Vignesh","Dosa", 28)
   val minu = new Person("Minu","Pasta", 28)
-  val vigneshFullName = vignesh + " Meyyappan"
+  val vigneshFullName = vignesh + " M"
   val vigneshNextYear= +vignesh
 
   println(vignesh + minu) // or vignesh.+(minu)
@@ -19,7 +19,7 @@ object FifthExs extends App{
     def learns(someVal: String) = s"${this.name} is learning $someVal"
     def learnsPython() = this learns "Python"
 
-    def +(wifeName: Person) = s"${this.name} got married to ${wifeName.name}"
+    def +(wife: Person) = s"${this.name} got married to ${wife.name}"
     def +(newName: String) = new Person(this.name + newName, this.food, this.age)
 
     def unary_! = s"It's Surprising ${this.name}"

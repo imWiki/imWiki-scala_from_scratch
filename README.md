@@ -57,7 +57,7 @@ File = StringOperations.scala
 
 # Part 2 - Object Oriented Concepts
 
-__Classes & Objects__
+__Classes & Methods__
 ```
 Package = lectures.part2oops
 File = ObjectOrientedBasics.scala
@@ -94,6 +94,11 @@ File = MethodNotations.scala
 3. Add a learns method that can be called with post fix notation. ex: vignesh learns scala
 4. Overload apply method with an argument and return some string.
 
+ __Objects__
+```
+Package = package lectures.part2oops
+File = Objects.scala
+```
  
 
 # Update WIP
