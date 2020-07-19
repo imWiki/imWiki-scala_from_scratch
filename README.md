@@ -99,6 +99,16 @@ File = MethodNotations.scala
 Package = package lectures.part2oops
 File = Objects.scala
 ```
+
+ __Inheritance & Traits__
+```
+Package = package lectures.part2oops
+File = Inheritance.scala & AbstractDataTypes.scala
+```
+`Exercise 6: Write a custom Linked List using abstract class and inheritance`
+1. File name = MyList.scala 
+2. Package = exercises
+
  
 
 # Update WIP
