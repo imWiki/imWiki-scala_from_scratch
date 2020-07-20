@@ -5,7 +5,7 @@ object Generics extends App{
     // here A is called a generic which can be substituted with any data type
     //use type A inside class definition
 
-    def add[B >:A] (element: B): CovariantList[B] = ???
+    def add[B >:A] (element: B): MyList[B] = ???
   }
 
   class MyMap[Key, Value]
@@ -17,12 +17,12 @@ object Generics extends App{
 
   //generic methods
   object MyList {
-    def empty[A] = true
+    def empty[A]: MyList[A] = new MyList[A] //Accessing generic defined in MyList "A" using companion object method signature
   }
 
   val emptyListOfIntegers = MyList.empty[Int]
 
-  // variance problem
+  // variance problem in generics
 
   class Animal
   class Cat extends Animal
