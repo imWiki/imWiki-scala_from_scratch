@@ -106,7 +106,7 @@ Package = package lectures.part2oops
 File = Inheritance.scala & AbstractDataTypes.scala
 ```
 
-`Exercise 6: Write a custom Linked List using abstract class and inheritance`
+`Exercise 6: Write a custom Linked List using abstract class and inheritance`\
 File name = exercises.MyList.scala 
 
 __Generics__
@@ -115,5 +115,5 @@ Package = package lectures.part2oops
 File = Generics.scala
 ``` 
 
-`Exercise 7: Modify the linked list written above using generics`
+`Exercise 7: Modify the linked list written above using generics`\
 File name = exercises.MyListGeneric.scala
